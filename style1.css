@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+#header{
+ 
+   position: relative;
+   background-color: white;
+   width: 100%;
+   height: 45px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-left: 25px;
+}
+#search{
+    position: absolute;
+    right: 25px;
+    top: 7px;
+    cursor: pointer;
+}
+#logoImage{
+    width: 30px;
+    height: 30px;
+}
+#search{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 10px;
+    color: green;
+}
+#search:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+.search{
+    text-align: center;
+    margin-top: 25px;
+    color: green;
+}
+.inputBox{
+    text-align: center;
+}
+#input{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: 1px dotted red;
+}
+#coinSearch{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: blue;
+    margin-left: 10px;
+    margin-bottom: 25px;
+
+}
+#coinSearch:hover{
+    background-color: blue;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.line{
+    background-color: red;
+    height: 3px;
+}
+.coinSetBox{
+   width: calc(100% -50px);
+    height: 50px;
+    background-color: white;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.coinSetBox:hover{
+    box-shadow: 0px 4px 3px 1px green;
+    transition: 0.4s;
+}
+.coinImage{
+    height: 1.7rem;
+}
+.alldetails{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.coinSetBox p{
+    font-size: 1.3rem;
+}
+/* .moreInfo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} */
+#moreInfo{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    font-size: 1.1rem;
+}
+#moreInfo:hover{
+    border: 2px solid green;
+    color: green;
+    transition: 0.4s;
+    background-color: transparent;
+}

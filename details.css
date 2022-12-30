@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+#header{
+
+   position: relative;
+   background-color: white;
+   width: 100%;
+   height: 45px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    margin-left: 25px;
+}
+#search{
+    position: absolute;
+    right: 25px;
+    top: 7px;
+    cursor: pointer;
+}
+#logoImage{
+    width: 30px;
+    height: 30px;
+}
+#search{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 10px;
+    color: green;
+}
+#search:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+#body{
+    display: flex;
+    padding: 25px;
+   
+}
+#leftBox{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rightBox{
+    width: 70%;
+}
+.priceList{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.descriptionHeading{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.title{
+    color: green;
+}
